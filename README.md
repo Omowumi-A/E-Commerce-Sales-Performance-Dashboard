@@ -15,10 +15,12 @@ Power BI Desktop (Data Modeling, DAX measures, Slicers, Cross-Filtering, Multi-P
 The dataset was cleaned in Project 1 and carried through Projects 2 and 3 before this dashboard. It contains 1,200 rows and 14 columns: OrderID | Date | CustomerID | Product | Quantity | UnitPrice | ShippingAddress | PaymentMethod | OrderStatus | TrackingNumber | ItemsInCart | CouponCode | ReferralSource | TotalPrice
 
 # Dashboard Structure
-Page 1 — Sales Performance
-![Dashboard 1_Sales_Performance](Dashboard 1 - Sales Performance.png)
+
+**Page 1 — Sales Performance**
 
 The first page provides a high-level view of the business's sales performance and allows users to interact with the report using Product and Year slicers.
+
+![Sales Performance Dashboard](./images/Dashboard_Page1_Sales_Performance.png)
 
 Key Performance Indicators
 - Total Orders: 1,200
@@ -50,19 +52,18 @@ Monthly revenue fluctuated throughout the period rather than following a consist
 Quantity and order value:
 Average order value increases as quantity increases, indicating a positive relationship between the number of items purchased and the total value of an order.
 
-Page 2 — Drivers & Opportunities
-![Dashboard 2_Drivers & Opportunities](Dashboard 1 - Drivers & Opportunities.png)
+**Page 2 — Drivers & Opportunities**
 
 The second page moves beyond high-level reporting to examine the underlying patterns that may explain order performance and identify areas for further business investigation.
 
 Key Performance Indicators
-Total Orders: 1,200
-Mean Order Value: $1,054
-Median Order Value: $824
-Highest Order Value: $3,456
-Cancellation Rate: 20.8%
-High-Value Orders: 512
-Instagram Revenue: $275K
+- Total Orders: 1,200
+- Mean Order Value: $1,054
+- Median Order Value: $824
+- Highest Order Value: $3,456
+- Cancellation Rate: 20.8%
+- High-Value Orders: 512
+- Instagram Revenue: $275K
 
 Visual Analysis
 1. Order Value Distribution
@@ -73,18 +74,14 @@ The analysis also identified 512 orders above $1,000, representing approximately
 
 2. UnitPrice and TotalPrice Relationship
 
-The analysis found a correlation of approximately r = 0.72 between UnitPrice and TotalPrice.
-
-This was the strongest observed correlation among the key numerical variables examined in the project.
+The analysis found a correlation of approximately r = 0.72 between UnitPrice and TotalPrice. This was the strongest observed correlation among the key numerical variables examined in the project.
 
 Business interpretation:
 The relationship suggests that higher-priced products tend to be associated with higher total order values in this dataset. However, correlation does not establish causation, so further analysis would be required before concluding that increasing product prices directly causes revenue growth.
 
 3. Quantity and TotalPrice Relationship
 
-The analysis found a correlation of approximately r = 0.62 between Quantity and TotalPrice.
-
-The Power BI visual also shows that average order value generally increases as the quantity purchased increases.
+The analysis found a correlation of approximately r = 0.62 between Quantity and TotalPrice. The Power BI visual also shows that the average order value generally increases as the quantity purchased increases.
 
 Business interpretation:
 Quantity is positively associated with order value, indicating that customers who purchase more items tend to generate higher-value orders. This could support further investigation into strategies such as product bundles, cross-selling, or quantity-based incentives.
@@ -145,14 +142,17 @@ Business Question Development · Insight Generation · Statistical Interpretatio
 - Dashboard screenshots for portfolio viewing
 
 # Files
-Ecommerce_Dashboard.pbix — Interactive Power BI dashboard file
-Dashboard_Screenshot_Page1.png — Sales Performance dashboard preview
-Dashboard_Screenshot_Page2.png — Drivers & Opportunities dashboard preview
+- Ecommerce_Dashboard.pbix — Interactive Power BI dashboard
+- Dashboard_Screenshot_Page1.png — Sales Performance dashboard preview
+- Dashboard_Screenshot_Page2.png — Drivers & Opportunities dashboard preview
 
 # Related Projects
-Project 1: E-commerce Data Cleaning using Microsoft Excel (https://github.com/Omowumi-A/ecommerce-data-cleaning)
-Project 2: E-commerce Exploratory Data Analysis (https://github.com/Omowumi-A/ecommerce-exploratory-data-analysis)
-Project 3: E-commerce SQL Analysis using PostgreSQL (https://github.com/Omowumi-A/ecommerce-sql-analysis)
 
+This dashboard is the final stage of a four-part e-commerce analytics project:
+
+1. [Project 1 — E-commerce Data Cleaning using Microsoft Excel](https://github.com/Omowumi-A/ecommerce-data-cleaning)
+2. [Project 2 — E-commerce Exploratory Data Analysis](https://github.com/Omowumi-A/ecommerce-exploratory-data-analysis)
+3. [Project 3 — E-commerce SQL Analysis using PostgreSQL](https://github.com/Omowumi-A/ecommerce-sql-analysis)
+4. **Project 4 — E-commerce Sales Performance Dashboard** *(this project)*
 
 
