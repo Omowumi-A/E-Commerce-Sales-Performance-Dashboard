@@ -69,6 +69,7 @@ The second page moves beyond high-level reporting to examine the underlying patt
 
 **Visual Analysis**
 1. Order Value Distribution
+
 The distribution of order values shows that the mean order value ($1,054) is higher than the median order value ($824).
 This indicates that the distribution is right-skewed, with higher-value orders pulling the average upward. As a result, the median provides a useful representation of the typical order value alongside the mean.
 
