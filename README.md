@@ -22,41 +22,43 @@ The first page provides a high-level view of the business's sales performance an
 
 ![Sales Performance Dashboard](./images/Dashboard_Page1_Sales_Performance.png)
 
-Key Performance Indicators
+**Key Performance Indicators**
 - Total Orders: 1,200
 - Total Revenue: $1.26M
 - Average Order Value: $1.05K
 - Cancellation Rate: 20.8%
 
-Visuals
+**Visuals**
 - Revenue Share by Product
 - Revenue by Referral Source
 - Order Status Breakdown
 - Revenue Trend Over Time
 - Average Order Value by Quantity
 
-Key Insights
+**Key Insights**
 
-Product performance:
+a. Product performance:
 Chair generated the highest share of total revenue at approximately 15.47%, closely followed by Printer at 15.46% and Laptop at 15.19%. Revenue is relatively well distributed across the product categories, with Phone recording the lowest share at approximately 11.96%.
 
-Referral source performance:
+b. Referral source performance:
 Instagram generated the highest referral revenue at approximately $275K. However, the five referral channels performed within a relatively similar range, suggesting that revenue generation is not heavily dependent on a single acquisition source.
 
-Order status:
+c. Order status:
 Cancelled orders were the largest order-status category, with 250 cancelled orders, representing a 20.8% cancellation rate. This highlights cancellations as a key order-performance challenge that warrants further investigation.
 
-Revenue trend:
+d. Revenue trend:
 Monthly revenue fluctuated throughout the period rather than following a consistently increasing pattern. This suggests that the business may benefit from investigating the factors behind month-to-month changes in revenue performance.
 
-Quantity and order value:
+e. Quantity and order value:
 Average order value increases as quantity increases, indicating a positive relationship between the number of items purchased and the total value of an order.
 
 **Page 2 — Drivers & Opportunities**
 
 The second page moves beyond high-level reporting to examine the underlying patterns that may explain order performance and identify areas for further business investigation.
 
-Key Performance Indicators
+![Drivers & Opportunities Dashboard](./images/Dashboard_Page2_Drivers_Opportunities.png)
+
+**Key Performance Indicators**
 - Total Orders: 1,200
 - Mean Order Value: $1,054
 - Median Order Value: $824
@@ -65,7 +67,7 @@ Key Performance Indicators
 - High-Value Orders: 512
 - Instagram Revenue: $275K
 
-Visual Analysis
+**Visual Analysis**
 1. Order Value Distribution
 The distribution of order values shows that the mean order value ($1,054) is higher than the median order value ($824).
 This indicates that the distribution is right-skewed, with higher-value orders pulling the average upward. As a result, the median provides a useful representation of the typical order value alongside the mean.
@@ -121,17 +123,7 @@ This segment presents an opportunity to explore targeted customer retention stra
 
 # Skills Demonstrated
 
-Data Analysis:
-Exploratory Data Analysis · Descriptive Statistics · Correlation Analysis · Trend Analysis
-
-Data Tools:
-Microsoft Excel · PostgreSQL · pgAdmin 4 · Power BI Desktop
-
-Power BI:
-Data Visualization · DAX · KPI Design · Interactive Dashboards · Multi-Page Report Design · Slicers · Cross-Filtering · Data Storytelling
-
-Analytical Thinking:
-Business Question Development · Insight Generation · Statistical Interpretation · Business Opportunity Identification
+Power BI Desktop | DAX | KPI Design | Interactive Dashboards | Multi-Page Report Design | Slicers | Cross-Filtering | Data Visualization | Business Intelligence | Data Storytelling | Correlation Analysis | Business Opportunity Identification
 
 # Project Deliverables
 - Two-page interactive Power BI dashboard (.pbix)
@@ -142,9 +134,10 @@ Business Question Development · Insight Generation · Statistical Interpretatio
 - Dashboard screenshots for portfolio viewing
 
 # Files
-- Ecommerce_Dashboard.pbix — Interactive Power BI dashboard
-- Dashboard_Screenshot_Page1.png — Sales Performance dashboard preview
-- Dashboard_Screenshot_Page2.png — Drivers & Opportunities dashboard preview
+
+- [`Ecommerce_Dashboard.pbix`](./Ecommerce_Dashboard.pbix) — Interactive Power BI dashboard
+- [`Dashboard Page 1 — Sales Performance`](./images/Dashboard_Page1_Sales_Performance.png) — Dashboard preview
+- [`Dashboard Page 2 — Drivers & Opportunities`](./images/Dashboard_Page2_Drivers_Opportunities.png) — Dashboard preview
 
 # Related Projects
 
